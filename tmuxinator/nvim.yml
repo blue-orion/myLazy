@@ -1,0 +1,11 @@
+name: nvim_terminal
+root: ~/Baekjoon/
+
+windows:
+  - editor:
+      layout: main-horizontal
+      panes:
+        - nvim
+        - 
+      commands:
+        - tmux resize-pane -U 30
